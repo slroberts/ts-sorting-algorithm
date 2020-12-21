@@ -1,9 +1,3 @@
-interface Sortable {
-  length: number;
-  compare(leftIndex: number, rightIndex: number): boolean;
-  swap(leftIndex: number, rightIndex: number): void;
-}
-
 export abstract class Sorter {
   // abstract used to mark methods that are going to be implented by child class
   abstract length: number;
